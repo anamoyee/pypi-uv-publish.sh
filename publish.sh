@@ -2,6 +2,7 @@
 
 set -euo pipefail
 cd -- "$(dirname -- "${BASH_SOURCE[0]}")"
+cd .. # meant to be used as a submodule that resides at root of the pyproject.
 
 # build, then publish via uv
 
